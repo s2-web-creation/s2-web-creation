@@ -12,7 +12,7 @@ export const Header = () => (
         <label id='header-nav-close' htmlFor='header-nav-switch'></label>
         <div id='nav-content'>
           <ul>
-            <li><a href='/works'>home</a></li>
+            <li><a href='/'>home</a></li>
             <li><a href='/works'>works</a></li>
             <li>(TBD)</li>
             <li>(TBD)</li>

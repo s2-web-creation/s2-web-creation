@@ -26,3 +26,7 @@ yarn-error.log*
 
 # stroybook
 storybook-static
+
+# general
+/.cache/
+.DS_Store

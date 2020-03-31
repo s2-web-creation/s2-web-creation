@@ -1,0 +1,114 @@
+[
+  {
+    "name": "finc_psm",
+    "title": "FiNCパーソナルサプリメント",
+    "url": "https://personal-supplement.finc.com/",
+    "detail": "サイトのフロント改修",
+    "date": "2020/03"
+  },
+  {
+    "name": "studio_s",
+    "title": "「studio S」コーポレートサイト",
+    "url": "http://stu-s.co.jp/index.html",
+    "detail": "（個人請け案件）<br />コーポレートサイト制作～運用<br />静的ページのみでの構成のため、全て個人で実装対応。",
+    "date": "2020/02"
+  },
+  {
+    "name": "cyta",
+    "title": "習い事マッチングサービス「サイタ」",
+    "url": "https://cyta.jp/",
+    "detail": "サイトのフロント改修・フルリニューアル",
+    "date": "2019/09"
+  },
+  {
+    "name": "munsingwear",
+    "title": "「Munsingwear」ブランドサイト",
+    "url": "https://www.munsingwear-jp.com/",
+    "detail": "ブランドサイト立ち上げ（フロント担当）",
+    "date": "2018/11"
+  },
+  {
+    "name": "marmot",
+    "title": "「Marmot」ブランドサイト",
+    "url": "https://www.marmot.jp/",
+    "detail": "ブランドサイト立ち上げ（フロント担当）",
+    "date": "2018/11"
+  },
+  {
+    "name": "arena",
+    "title": "「arena」ブランドサイト",
+    "url": "https://asia.arenasport.com/ja-JP/",
+    "detail": "ブランドサイト立ち上げ（フロント担当）",
+    "date": "2018/10"
+  },
+  {
+    "name": "srixon",
+    "title": "「SRIXON」ブランドサイト",
+    "url": "https://www.srixon-apparel.jp/",
+    "detail": "ブランドサイト立ち上げ（フロント担当）",
+    "date": "2018/10"
+  },
+  {
+    "name": "umbro",
+    "title": "「umbro」ブランドサイト",
+    "url": "https://www.umbro-jp.com/",
+    "detail": "ブランドサイト立ち上げ（フロント担当）",
+    "date": "2018/09"
+  },
+  {
+    "name": "skins",
+    "title": "「SKINS」ブランドサイト",
+    "url": "https://www.skins-jp.com/",
+    "detail": "ブランドサイト立ち上げ（フロント担当）",
+    "date": "2018/08"
+  },
+  {
+    "name": "inov-8",
+    "title": "「inov-8」ブランドサイト",
+    "url": "https://www.inov-8-jp.com",
+    "detail": "ブランドサイト立ち上げ（フロント担当）",
+    "date": "2018/08"
+  },
+  {
+    "name": "lecoqsportif",
+    "title": "「le coq sportif」ブランドサイト",
+    "url": "https://www.lecoqsportif-jp.com",
+    "detail": "ブランドサイト立ち上げ（フロント担当）<br />同一ブランド複数展開のための基盤作り",
+    "date": "2018/07"
+  },
+  {
+    "name": "esteban",
+    "title": "「ESTEBAN」ブランドサイト",
+    "url": "https://www.esteban.co.jp/",
+    "detail": "ブランドサイトフルリニューアル～運用（フロント担当）<br />※ECサイト含む",
+    "date": "2017/12"
+  },
+  {
+    "name": "mammut",
+    "title": "「MAMMUT」ブランドサイト",
+    "url": "https://www.mammut.jp/",
+    "detail": "ブランドサイト立ち上げ～運用（フロント担当）<br />※ECサイト含む",
+    "date": "2017/08"
+  },
+  {
+    "name": "helenkaminski",
+    "title": "「HELEN KAMINSKI」ブランドサイト",
+    "url": "https://www.helenkaminski.co.jp/",
+    "detail": "ブランドサイト立ち上げ～運用（フロント担当）<br />※ECサイト含む",
+    "date": "2017/06"
+  },
+  {
+    "name": "diesel",
+    "title": "「DIESEL」ブランドサイト",
+    "url": "https://www.diesel.co.jp/",
+    "detail": "ブランドサイト改修・運用（フロント担当）<br />※ECサイト含む",
+    "date": "2017/05"
+  },
+  {
+    "name": "colehaan",
+    "title": "「COLE HAAN」ブランドサイト",
+    "url": "https://www.colehaan.co.jp/",
+    "detail": "ブランドサイト改修・運用（フロント担当）<br />※ECサイト含む",
+    "date": "2017/04"
+  }
+]

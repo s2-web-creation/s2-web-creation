@@ -1,20 +1,61 @@
 <template>
-  <div>
-    <nuxt />
+  <div class="wrapper">
+    <Header />
+    <main class="container">
+      <nuxt />
+    </main>
+    <Footer />
   </div>
 </template>
 
-<style>
+<script lang="ts">
+import Vue from 'vue'
+import Header from '~/components/Header.vue'
+import Footer from '~/components/Footer.vue'
+
+export default Vue.extend({
+  components: {
+    Header,
+    Footer
+  }
+})
+</script>
+
+<style lang="scss">
+@font-face {
+  font-family: "Original Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Original Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Original Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Original Yu Gothic";
+  src: local("Yu Gothic Medium");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Original Yu Gothic";
+  src: local("Yu Gothic Bold");
+  font-weight: bold;
+}
+
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+  line-height: 1.5;
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans CJK JP", "Original Yu Gothic", "Yu Gothic", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Sans Emoji";
+  letter-spacing: .1em;
 }
 
 *,
@@ -24,32 +65,16 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  .container {
+    flex: 1;
+    margin: 0 auto;
+    margin-top: $header-height;
+    padding: 1rem;
+    background-color: $bg-color;
+  }
 }
 </style>

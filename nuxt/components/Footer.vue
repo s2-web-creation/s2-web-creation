@@ -1,9 +1,15 @@
 <template>
   <footer id="footer">
     <ul class="footerLinks">
-      <li class="item"><a href="https://github.com/s2-web-creation/s2-web-creation" target="_blank">Github</a></li>
-      <li class="item"><a href="https://qiita.com/seven_sound" target="_blank">Qiita</a></li>
-      <li class="item"><a href="https://twitter.com/7sounD_" target="_blank">Twitter</a></li>
+      <li class="item">
+        <a href="https://github.com/s2-web-creation/s2-web-creation" target="_blank">GitHub</a>
+      </li>
+      <li class="item">
+        <a href="https://qiita.com/seven_sound" target="_blank">Qiita</a>
+      </li>
+      <li class="item">
+        <a href="https://twitter.com/7sounD_" target="_blank">Twitter</a>
+      </li>
     </ul>
     <p class="footerCopyright">© 2020 S2 Web Creation</p>
   </footer>

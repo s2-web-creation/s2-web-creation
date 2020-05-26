@@ -45,7 +45,7 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    '@nuxtjs/style-resources',
+    '@nuxtjs/style-resources'
   ],
   styleResources: {
     scss: [
@@ -60,6 +60,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) { }
   }
 }
